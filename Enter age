@@ -1,0 +1,7 @@
+#prompt for input 
+age = int(input('Enter your age please: '))
+
+if age >= 10 and age <= 14: # provide your answer here
+    print('You can join the Youth Club!')
+else:
+    print('Sorry, you are not eligible to a member')
